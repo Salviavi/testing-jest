@@ -20,7 +20,7 @@ describe("Navbar Component", () => {
     });
 
     it("should render Navbar with logout button when token exists", () => {
-        // Mock localStorage to simulate presence of access_token
+        // Mock localStorage untuk simulasi access_token
         jest.spyOn(Storage.prototype, 'getItem').mockReturnValue('mock-token');
 
         const mockLogout = jest.fn();
