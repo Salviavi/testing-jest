@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should handle click button 1`] = `
+<div>
+  <button
+    type="primary"
+  >
+    Hello World
+  </button>
+</div>
+`;
+
+exports[`Button Component should render button 1`] = `
+<div>
+  <button
+    type="primary"
+  >
+    Hello World
+  </button>
+</div>
+`;

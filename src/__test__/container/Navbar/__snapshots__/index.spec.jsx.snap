@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component should render Navbar with login and sign up links when no token 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="navbar-links"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </div>
+    <div
+      class="navbar-buttons"
+    >
+      <a
+        class="login-button"
+        href="/login"
+      >
+        Login
+      </a>
+      <a
+        class="signup-button"
+        href="/register"
+      >
+        Sign Up
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Navbar Component should render Navbar with logout button when token exists 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <div
+      class="navbar-links"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </div>
+    <div
+      class="navbar-buttons"
+    >
+      <button
+        class="logout-button"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</div>
+`;
